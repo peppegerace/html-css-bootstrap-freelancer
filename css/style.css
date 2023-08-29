@@ -12,3 +12,11 @@
   height: 100%;
 }
 /* /DEBUG */
+
+.line {
+  background-color: white;
+  height: 3px;
+  width: 50px;
+  border-radius: 10px;
+}
+

@@ -13,7 +13,7 @@
 
   <!-- css -->
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <title>Start Bootstrap</title>
 </head>
 <body>
 
@@ -142,7 +142,7 @@
     </section>
 
     <!-- about -->
-    <section class="about">
+    <section class="about py-4">
       <div class="container-md">
 
         <div class="about-top w-100 d-flex flex-column align-items-center pt-5">
@@ -173,29 +173,29 @@
     </section>
 
     <!-- Contacts -->
-    <section class="contact">
+    <section class="contact py-4">
 
-      <div class="container-md debug">
+      <div class="container-md">
         
-        <div class="contact-top d-flex mb-3  flex-column align-items-center debug">
-          <h2 class="mb-3">titolo</h2>
-          <div class="line-star d-flex align-items-center mb-3 w-25 ">
-            <div class="line d-inline-block"></div>
+        <div class="contact-top d-flex mb-3  flex-column align-items-center">
+          <h2 class="mb-3 text-uppercase fw-bold  color-darkgrey">Contact Me</h2>
+          <div class="line-star d-flex align-items-center mb-3 w-25 color-darkblue">
+            <div class="line d-inline-block bg-color-darkblue"></div>
             <i class="fa-solid fa-star mx-2 "></i>
-            <div class="line d-inline-block"></div>
+            <div class="line d-inline-block bg-color-darkblue"></div>
           </div>
         </div>
 
-        <div class="container-g debug p-4">
+        <div class="container-g p-4">
 
-          <div class="contact-bottom d-flex flex-column ">
-            <input type="text" placeholder="Name" class="mb-1 ">
-            <input type="email" placeholder="Email Address" class="mb-1 ">
-            <input type="text" placeholder="Phone Number" class="mb-1 ">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Meassage" class="mb-1 "></textarea>
-          </div>
-
-          <button>Send</button>
+          <form action="#">
+    
+            <input type="text" class="form-control input-custom py-3" placeholder="Name">
+            <input type="email" class="form-control input-custom py-3" placeholder="Email Address">
+            <input type="text" class="form-control input-custom py-3" placeholder="Phone Number">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="form-control input-custom"></textarea>
+            <button class="btn btn-secondary mt-3 button-custom">Send</button>
+          </form>
         </div>
       </div>
     </section>

@@ -144,6 +144,28 @@ main {
   background-color: var(--green);
 }
 
+/* CONTACT */
+.input-custom {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.input-custom::placeholder {
+  color: var(--darkblue);
+}
+
+.input-custom:focus {
+  box-shadow: none;
+  border-bottom: 1px solid var(--darkblue);
+}
+
+.button-custom {
+  background-color: var(--green);
+  border: none;
+}
 
 /* HOVER EFFECTS */
 header li:hover a {
@@ -152,4 +174,8 @@ header li:hover a {
 
 .card-image:hover .portfolio-plus {
   display: block;
+}
+
+.button-custom:hover {
+  background-color: #1abc9ca9;
 }

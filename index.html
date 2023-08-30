@@ -18,24 +18,46 @@
 <body>
 
   <header>
-    <div class="container debug al100px">
-      <div class="row align-items-center al100 ">
-        <div class="col-3  debug">logo</div>
-        <div class="col-1 offset-8 d-md-none debug"><i class="fa-solid fa-bars"></i></div>
-        <div class="col-3 offset-6 debug d-none d-md-block">menu</div>
+   
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col h-100">
+          <a href="#" class="text-uppercase gg-lh-90 fs-4 fw-bold">start bootstrap</a>
+        </div>
+        <div class="col h-100 text-end ">
+          <span class="gg-lh-90 d-md-none ">
+            <button class="btn btn-outline-light">
+              <i class="fa-solid fa-bars fs-4"></i>
+            </button>
+          </span>
+          <nav class="d-none d-md-block">
+            <ul class="d-flex flex-row justify-content-end align-items-center">
+              <li>
+                <a href="#" class="text-uppercase gg-lh-90 fw-bold">Portfolio</a>
+              </li>
+              <li>
+                <a href="#" class="text-uppercase gg-lh-90 fw-bold">about</a>
+              </li>
+              <li>
+                <a href="#" class="text-uppercase gg-lh-90 fw-bold">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
 
   <main>
 
+    <!-- jumbotron -->
     <div class="jumbotron-g debug">
       <div class="container debug d-flex flex-column align-items-center  al100 p-4">
         <div class="image debug mb-3">
           immagine
         </div>
         <h2 class="mb-3">titolo</h2>
-        <div class="line-star d-flex align-items-center mb-3">
+        <div class="line-star d-flex align-items-center mb-3 w-25 ">
           <div class="line d-inline-block"></div>
           <i class="fa-solid fa-star mx-2 "></i>
           <div class="line d-inline-block"></div>
@@ -48,9 +70,9 @@
     <section class="debug">
       <div class="container-md debug d-flex flex-column align-items-center p-4">
 
-        <div class="portfolio-top text-center ">
+        <div class="portfolio-top w-100 d-flex flex-column align-items-center">
           <h2 class="mb-3">titolo</h2>
-          <div class="line-star d-flex align-items-center mb-3">
+          <div class="line-star d-flex align-items-center mb-3 w-25">
             <div class="line d-inline-block"></div>
             <i class="fa-solid fa-star mx-2 "></i>
             <div class="line d-inline-block"></div>
@@ -75,16 +97,17 @@
     <!-- about -->
     <section class="about debug">
       <div class="container-md debug">
-        <div class="container-g debug d-flex flex-column align-items-center p-4">
 
-          <div class="about-top text-center ">
-            <h2 class="mb-3">titolo</h2>
-            <div class="line-star d-flex align-items-center mb-3">
-              <div class="line d-inline-block"></div>
-              <i class="fa-solid fa-star mx-2 "></i>
-              <div class="line d-inline-block"></div>
-            </div>
+        <div class="about-top w-100 d-flex flex-column align-items-center">
+          <h2 class="mb-3">titolo</h2>
+          <div class="line-star d-flex align-items-center mb-3 w-25 ">
+            <div class="line d-inline-block"></div>
+            <i class="fa-solid fa-star mx-2 "></i>
+            <div class="line d-inline-block"></div>
           </div>
+        </div>
+
+        <div class="container-g debug d-flex flex-column align-items-center p-4">
 
           <div class="about-bottom mb-5">
             <div class="container-fluid">
@@ -106,22 +129,23 @@
     <section class="contact">
 
       <div class="container-md debug">
+        
+        <div class="contact-top d-flex mb-3  flex-column align-items-center debug">
+          <h2 class="mb-3">titolo</h2>
+          <div class="line-star d-flex align-items-center mb-3 w-25 ">
+            <div class="line d-inline-block"></div>
+            <i class="fa-solid fa-star mx-2 "></i>
+            <div class="line d-inline-block"></div>
+          </div>
+        </div>
+
         <div class="container-g debug p-4">
 
-          <div class="about-top d-flex mb-3  flex-column align-items-center   debug">
-            <h2 class="mb-3">titolo</h2>
-            <div class="line-star d-flex align-items-center mb-3">
-              <div class="line d-inline-block"></div>
-              <i class="fa-solid fa-star mx-2 "></i>
-              <div class="line d-inline-block"></div>
-            </div>
-          </div>
-
-          <div class="about-bottom d-flex flex-column ">
+          <div class="contact-bottom d-flex flex-column ">
             <input type="text" placeholder="Name" class="mb-1 ">
             <input type="email" placeholder="Email Address" class="mb-1 ">
             <input type="text" placeholder="Phone Number" class="mb-1 ">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Meassage" class="mb-1 "></textarea></textarea>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Meassage" class="mb-1 "></textarea>
           </div>
 
           <button>Send</button>
@@ -132,7 +156,7 @@
 
   <footer>
 
-    <!--  -->
+    <!-- info -->
     <section class="footer-top">
 
       <div class="container-md debug p-4">
@@ -144,6 +168,7 @@
       </div>
     </section>
 
+    <!-- copyright -->
     <section class="footer-bottom text-center debug p-4">
       <span>1</span>
     </section> 

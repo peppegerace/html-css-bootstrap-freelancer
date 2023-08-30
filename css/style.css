@@ -1,3 +1,38 @@
+/* CUSTOM PROPERTIES */
+:root {
+  --darkblue: #2c3e50;
+  --blue: #3a546d;
+  --green: #1abc9c;
+  --darkgrey: #333333;
+  --grey: #7e7f82;
+}
+
+/* GENERAL PROPERTIES */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-g {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.gg-lh-90 {
+  line-height: 90px;
+}
+
+
+.line {
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  border-radius: 10px;
+}
+
 /* DEBUG */
 .debug {
   background-color: rgba(30, 143, 255, 0.2);
@@ -13,14 +48,29 @@
 }
 /* /DEBUG */
 
-.line {
-  background-color: white;
-  height: 3px;
-  width: 50px;
-  border-radius: 10px;
+/* HEADER */
+header {
+  width: 100%;
+  height: 90px;
+  background-color: var(--darkblue);
+  position: fixed;
+  z-index: 999;
 }
 
-.container-g {
-  width: 60%;
-  margin: 0 auto;
+header li {
+  margin-left: 20px;
 }
+
+header a {
+  color: white;
+}
+
+header .fa-solid.fa-bars {
+  color: var(--grey);
+}
+
+/* HOVER EFFECTS */
+header li:hover a{
+  color: var(--green);
+}
+

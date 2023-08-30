@@ -8,6 +8,10 @@
 }
 
 /* GENERAL PROPERTIES */
+body {
+  color: white;
+}
+
 li {
   list-style: none;
 }
@@ -25,12 +29,15 @@ a {
   line-height: 90px;
 }
 
-
 .line {
   background-color: white;
-  height: 3px;
+  height: 4px;
   width: 100%;
   border-radius: 10px;
+}
+
+.line-star {
+  font-size: 1.3rem;
 }
 
 /* DEBUG */
@@ -68,6 +75,20 @@ header a {
 header .fa-solid.fa-bars {
   color: var(--grey);
 }
+
+/* MAIN */
+main {
+  padding-top: 90px;
+}
+
+.jumbotron-g {
+  background-color: var(--green);
+}
+
+.jumbotron-g .image {
+  width: 200px;
+}
+
 
 /* HOVER EFFECTS */
 header li:hover a{

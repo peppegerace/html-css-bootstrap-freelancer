@@ -20,6 +20,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .container-g {
   width: 60%;
   margin: 0 auto;
@@ -38,6 +44,18 @@ a {
 
 .line-star {
   font-size: 1.3rem;
+}
+
+.color-darkgrey {
+  color: var(--darkgrey);
+}
+
+.color-darkblue {
+  color: var(--darkblue);
+}
+
+.bg-color-darkblue {
+  background-color: var(--darkblue);
 }
 
 /* DEBUG */
@@ -81,6 +99,7 @@ main {
   padding-top: 90px;
 }
 
+/* JUMBOTRON */
 .jumbotron-g {
   background-color: var(--green);
 }
@@ -89,9 +108,42 @@ main {
   width: 200px;
 }
 
+/* PORTFOLIO */
+.card-image {
+  position: relative;
+}
+
+.card-image img {
+  border-radius: 10px;
+  position: relative;
+}
+
+.portfolio-plus {
+  width: 100%;
+  height: 100%;
+  background-color: #1abc9c7a;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  border-radius: 10px;
+  display: none;
+}
+
+.portfolio-plus i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: white;
+  font-size: 4rem;
+}
 
 /* HOVER EFFECTS */
-header li:hover a{
+header li:hover a {
   color: var(--green);
 }
 
+.card-image:hover .portfolio-plus {
+  display: block;
+}

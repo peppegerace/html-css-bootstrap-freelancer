@@ -139,6 +139,12 @@ main {
   font-size: 4rem;
 }
 
+/* ABOUT */
+.about {
+  background-color: var(--green);
+}
+
+
 /* HOVER EFFECTS */
 header li:hover a {
   color: var(--green);

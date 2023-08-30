@@ -166,6 +166,31 @@ main {
   background-color: var(--green);
   border: none;
 }
+/* /MAIN */
+
+/* FOOTER */
+.footer-top {
+  background-color: var(--blue);
+}
+
+.footer-top .fa-brands{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.footer-top a {
+  color: var(--green);
+}
+
+.footer-bottom {
+  background-color: var(--darkblue);
+  font-size: 0.7rem;
+}
 
 /* HOVER EFFECTS */
 header li:hover a {

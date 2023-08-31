@@ -58,21 +58,6 @@ img {
   background-color: var(--darkblue);
 }
 
-/* DEBUG */
-.debug {
-  background-color: rgba(30, 143, 255, 0.2);
-  border: 1px solid black;
-}
-
-.al100px {
-  height: 100px;
-}
-
-.al100 {
-  height: 100%;
-}
-/* /DEBUG */
-
 /* HEADER */
 header {
   width: 100%;
